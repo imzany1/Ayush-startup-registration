@@ -5,6 +5,10 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    background-image: url('https://www.healthcareradius.in/cloud/2022/08/08/Ministry-of-Ayush.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .container-md {
@@ -12,7 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(211, 211, 211, 0.5);
+    background-color: rgba(211, 211, 211, 0.8);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.7);
