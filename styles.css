@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(19, 1, 1, 0.9);
+    height: 100vh; /* Ensures the body takes up full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container-md {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+    width: 40vh;
+    max-width: none ;
+}
+
+form {
+    width: 100%;
+    max-width: 400px; /* Limits the width of the form */
+}
+
+.mb-3 input {
+    max-width: 100%; /* Input fields fill the space under their labels */
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns the label and input to the left */
+    width: 100%;
+    margin-bottom: 15px; /* Add space between form fields */
+}
+
+label {
+    margin-bottom: 5px; /* Adds some space between the label and the input */
+}
+
+.form-check {
+    display: flex; /* Makes the checkbox and label align horizontally */
+    align-items: center; /* Vertically centers the checkbox and label */
+    width: auto;
+}
+
+.form-check-input {
+    width: auto; /* Ensures checkbox stays at its default size */
+    margin-right: 10px; /* Adds space between the checkbox and label */
+}
+
+
+.submit-btn {
+    width: 49%; /* Makes the submit button 60% of the container's width */
+    display: block;
+    margin-left: auto;  /* Ensures the button is aligned center */
+    margin-right: auto; /* Centers the button horizontally */
+}
