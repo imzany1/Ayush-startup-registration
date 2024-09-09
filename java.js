@@ -6,7 +6,10 @@ function passwordMatch(e){
     console.log(password)
     console.log(cnfrmPassword)
     if(password == cnfrmPassword && password.length >= 8){
-        console.log("Hello"); 
+        console.log("Hello");
+        function openpage(){
+            
+        } 
     }
     else{
         console.log("Bye")

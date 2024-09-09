@@ -12,11 +12,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(211, 211, 211, 0.8);
+    background-color: rgba(211, 211, 211, 0.5);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.7);
-    width: 40vh;
+    width: 70vh !important;
     max-width: none ;
 }
 
@@ -55,7 +55,6 @@ label {
 
 .submit-btn {
     width: 49%; /* Makes the submit button 60% of the container's width */
-    display: block;
-    margin-left: auto;  /* Ensures the button is aligned center */
-    margin-right: auto; /* Centers the button horizontally */
+    display: block !important;
+    margin: 0 auto !important;
 }
